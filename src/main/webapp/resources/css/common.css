@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+    body{width: 100%; height: 1500px;}
+    #wrapper{font-style: normal; font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', dotum, sans-serif; font-size: 1rem;  font-weight: normal;}
+    header{width: 100%; height: 90px;}
+    #logo{width: 230px; height: 70px; position: relative; top: 5px; left: 250px;}
+    #search{width: 300px; height: 40px; position: relative; top: -50px; left: 519px;}
+    #login{width: 100px; color: #222222; text-decoration: none; font-size: 20px; position: absolute; top: 35px; left: 1270px;}
+    #join{width: 100px; color: #5B97E1; text-decoration: none; font-size: 20px; position: absolute; top: 35px; left: 1370px;}
+
+    nav{width: 100%; height: 50px;}
+    #menu{list-style: none; padding: 0px;}
+    #menu>li{width: 180px; height: 40px; line-height: 40px; text-align: center; display: inline-block; position: relative; top: 0px; left: 210px;}
+    #menu>li>a{text-decoration: none; color: #000000;}
+    #menu>a{display: block;}
+    .sub{display: none; color: #000000; list-style: none; width: 185px; position: relative; top: 35px; left: -20px;}
+    .sub>a{text-decoration: none; color: #000000;}
+    #menu:hover .sub{display: block; position: absolute;}
+    nav:hover{height: 240px; background-color: #DAE6F5; transition: 0.4s;}
+
+    #carousel{width: 72%; height: 70px; position: relative; top: 10px; left: 250px;}
+
+
+
+
+
+    #contentgrp{margin-top: 65px;}
+    .out{
+          width: 72%;
+          position: relative;
+          margin-right: 0;
+          margin-left: 250px;
+          padding-left: 15px;
+          padding-right: 15px;
+        }  
+
+    .top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .title {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .content {
+        font-size: 14px;
+    }   
+    .more {
+        display: inline-block; 
+        position: relative;
+        margin-top: 10px;
+        padding-right: 14px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+        
+    .more:hover {
+        padding-right: 18px;
+    }
+
+    .more:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 10px; right: 0;
+        width: 5px; height: 8px;
+        background: url(http://www.kmooc.kr/static/new_index/images/icon_arrow_right_b.png) no-repeat;
+    }
+
+    .main1.txt {
+        background-color: #658cd2;
+        width: 60%;
+        padding: 20px;
+    }
+
+    .main1.img {
+        background-image: url(http://www.kmooc.kr/static/new_index/images/img_visual_001.jpg);
+        width: 40%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main2.txt {
+        background-color: #4c96c1;
+        width: 60%;
+        padding: 20px;
+    }
+
+    .main2.img {
+        background-image: url(http://www.kmooc.kr/static/new_index/images/img_visual_002.jpg);
+        width: 40%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main3.txt {
+        width: 60%;
+        padding: 20px;
+        background-color: #38a99b;
+    }
+    .main3.img {
+        background-image: url(http://www.kmooc.kr/static/new_index/images/img_visual_003.jpg);
+        width: 40%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    a {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        vertical-align: baseline;
+        text-decoration: none;
+        color: inherit;
+    } 
+
+    .boxout{padding: 15px 0;}
+   
+    .box{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-family: GmarketSans;
+        width: calc((100% - 1px)/7);
+        margin: 15px 0;
+        padding: 0 25px;
+    }
+    .box:nth-child(odd){
+        background:#DAE6F5;
+    }
+    .boxout-text{
+        padding:15px 0px;
+        text-align:center;
+        line-height: 1.4;
+    }
+    .boxout-text strong{
+        display:block;
+        font-size:16px;
+        margin-bottom: 3px;
+        color:#000000;
+        white-space: pre-line;
+    }
+    .boxout-text strong:hover {
+        color: #4d8dc5;
+        white-space: pre-line;
+    }
+    .boxout-text span{
+        display:block;
+        color:#555;
+        font-size:16px;
+        font-weight: 600;
+    }
+
+
+
+    #foot1{width: 100%; height: 470px; margin-top: 6px; background-color: #222222;}
+    #f1{width: 500px; height: 300px; color: #FFFFFF; position: relative; top: 10px; left: 230px; font-size: 13px;}
+    #f1title{font-size: 15.9px;}
+    #f1>a>img{margin-left: 10px;}
+    #bluep1{color: #79a9ff;}
+    #f2{width: 500px; height: 300px; color: #FFFFFF; position: relative; top: -290px; left: 640px;}
+    #f3{width: 500px; height: 300px; color: #FFFFFF; position: relative; top: -590px; left: 1000px;}
+    #f3>a>img{margin-left: 10px;}
+    #btn1{background-color: #FFFFFF; width: 80px; height: 37px;}
+    #optionbar{background-color: #222222; color: #FFFFFF; width: 210px; height: 35px;}
+    hr{width: 1230px; margin-top: -20px;}
+    #f4{width: 1000px; height: 90px; color: #FFFFFF; position: relative; top: -540px; left: 220px;}
+    #f4>a{display: inline-block; margin-left: 10px;}
+    #bluep2{color: #79a9ff;}
+    #f5{width: 500px; height: 90px; position: relative; top: -610px; left: 850px;}
+    #f5>a>img{margin-left: 50px;}
