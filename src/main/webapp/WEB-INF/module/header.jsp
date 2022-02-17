@@ -3,7 +3,7 @@
 
     	<header>
             <div>
-            <a href="#"><img src="resources/img/logo_top.png" id="logo"></a>
+            <a href="/Home.do"><img src="resources/img/logo_top.png" id="logo"></a>
             </div>
             <div>
                 <input type="search" name="search.." id="search">

@@ -6,12 +6,7 @@
     	<nav>
             <ul id="menu">
                 <li>
-                    <a href="#"><b>K-MOOC 소개</b></a>
-                    <ul class="sub">
-                        <a href="#"><li>K-MOOC란?</li></a>
-                        <a href="#"><li>추진체계</li></a>
-                        <a href="#"><li>참여기관</li></a>
-                    </ul>
+                    <a href="/intro.do"><b>K-MOOC 소개</b></a>
                 </li>
                 <li>
                     <a href="#"><b>강좌찾기</b></a>
