@@ -70,7 +70,7 @@
    <div id="wrapper" action="LoginProc.do">
         <header>
             <div>
-            <a href="/Home.do"><img src="resources/img/logo_top.png" id="logo"></a>
+            <a href="/Home.do"><img src="../resources/img/logo_top.png" id="logo"></a>
             </div>
             <div>
                 <input type="search" name="search.." id="search">
@@ -115,8 +115,7 @@
         
         
         <div id="content">
-        	<hr>
-        	<h2>글쓰기</h2>
+        	<h2>공지사항</h2>
         </div>
         
         
@@ -137,10 +136,10 @@
                     <p>(서비스 이용 문의)info_kmooc@nile.or.kr</p>
                     <p>E-mail: kmooc@nile.or.kr</p>
                     <p id="bluep1">K-MOOC는 chrome 브라우저 사용을 권장합니다.</p>
-                    <a href="#"><img src="resources/img/icon_link_facebook.png"></a>
-                    <a href="#"><img src="resources/img/icon_link_instagram.png"></a>
-                    <a href="#"><img src="resources/img/icon_link_youtube.png"></a>
-                    <a href="#"><img src="resources/img/icon_link_blog.png"></a>
+                    <a href="#"><img src="../resources/img/icon_link_facebook.png"></a>
+                    <a href="#"><img src="../resources/img/icon_link_instagram.png"></a>
+                    <a href="#"><img src="../resources/img/icon_link_youtube.png"></a>
+                    <a href="#"><img src="../resources/img/icon_link_blog.png"></a>
                 </div>
                 <div id="f2">
                     <p id="f2title"><b>패밀리사이트</b></p>
@@ -164,8 +163,8 @@
                 </div>
                 <div id="f3">
                     <p id="f3title"><b>앱 다운로드</b></p>
-                    <a href="#"><img src="resources/img/icon_app_android.png"></a>
-                    <a href="#"><img src="resources/img/icon_app_ios.png"></a>
+                    <a href="#"><img src="../resources/img/icon_app_android.png"></a>
+                    <a href="#"><img src="../resources/img/icon_app_ios.png"></a>
                 </div>
                 <div id="f4">
                     <hr>
@@ -177,8 +176,8 @@
                     <p>Copyright@2020 National Institute for Lifelong Education.All Rights Reserved</p>
                 </div>
                 <div id="f5">
-                    <a href="#"><img src="resources/img/footer1.png"></a>
-                    <a href="#"><img src="resources/img/footer2.png"></a>
+                    <a href="#"><img src="../resources/img/footer1.png"></a>
+                    <a href="#"><img src="../resources/img/footer2.png"></a>
                 </div>
             </div>
         </footer>
