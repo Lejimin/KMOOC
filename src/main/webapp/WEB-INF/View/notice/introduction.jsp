@@ -73,7 +73,7 @@
                 <input type="search" name="search.." id="search">
             </div>
             <div>
-                <a href="Login.jsp" id="login"><p><b>로그인</b></p></a>
+                <a href="/LogoutProc.do" id="login">로그아웃</a></li>
                 <a href="MemberJoin.jsp" id="join"><p><b>회원가입</b></p></a>
             </div>
         </header>
