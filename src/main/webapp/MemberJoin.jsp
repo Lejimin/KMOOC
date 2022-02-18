@@ -57,8 +57,6 @@
                     <a href="#"><b>K-MOOC 소개</b></a>
                     <ul class="sub">
                         <a href="#"><li>K-MOOC란?</li></a>
-                        <a href="#"><li>추진체계</li></a>
-                        <a href="#"><li>참여기관</li></a>
                     </ul>
                 </li>
                 <li>
@@ -72,12 +70,11 @@
                 </li>
                 <li>
                     <a href="#"><b>커뮤니티</b></a>
-                    <ul class="sub">
+                     <ul class="sub">
                         <a href="#"><li>공지사항</li></a>
                         <a href="#"><li>뉴스</li></a>
                         <a href="#"><li>자료실</li></a>
-                        <a href="#"><li>FAQ</li></a>
-                        <a href="#"><li>K-MOOC에 바라는점</li></a>
+                        <a href="#"><li>자유게시판</li></a>
                     </ul>
                 </li>
             </ul>
