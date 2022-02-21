@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Insert title here</title>
+<title>공지사항</title>
     <link href="resources/css/common.css" type="text/css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -30,19 +30,8 @@
         #menu:hover .sub{display: block; position: absolute;}
         nav:hover{height: 240px; background-color: #DAE6F5; transition: 0.4s;}
 
-        #content{width: 100%; height: 900px;}
-        #introdiv1{width: 100%; height: 200px; position: relative; top: 2px; left: -10px;}
-        #introp1{text-align: center; font-size: 30px; margin-top: 70px;}
-        #introp2{text-align: center; font-size: 40px; margin-top: 20px;}
-        #introdiv2{width: 100%; height: 350px; position: relative; top:2px; left: 0px; background-image: url(resources/img/bg_intro.jpg);}
-        #introdiv2>img{height: 30px; margin-left: 900px;}
-        table{margin: 30px 480px; width:900px; height: 300px; text-align: center; table-layout: fixed; font-size: 20px; color: white;}
-        #tr1{font-size: 15px; color: #5B97E1; font-weight: bold;}
-        #introdiv3{width: 100%; height: 330px; position: relative; top: 2px; left: 0px; text-align: center; font-size: 15px;}
-        #introsubdiv{width: 800px; height: 330px; position: relative; top: -100px; left: 550px;}
-        #infrosubdiv>p{width: 500px; font-size:30px;}
-        #img1{width: 20px; height: 100px;margin-top: 90px; margin-right: 400px;}
-        #img2{width: 20px; height: 100px;margin-top:75px; margin-left: 400px;}
+
+		#content{width:100%; height:800px;margin-left:250px;}
 
 
         #foot1{width: 100%; height: 485px; background-color: #222222;}
@@ -64,10 +53,10 @@
     </style>   
 </head>
 <body>
-    <div id="wrapper" action="LoginProc.do">
+   <div id="wrapper" action="LoginProc.do">
         <header>
             <div>
-            <a href="/Home.do"><img src="resources/img/logo_top.png" id="logo"></a>
+            <a href="/Home.do"><img src="../resources/img/logo_top.png" id="logo"></a>
             </div>
             <div>
                 <input type="search" name="search.." id="search">
@@ -79,7 +68,7 @@
         </header>
         <nav>
             <ul id="menu">
-               <li>
+                <li>
                     <a href="#"><b>K-MOOC 소개</b></a>
                     <ul class="sub">
                         <a href="/intro.do"><li>K-MOOC란?</li></a>
@@ -105,50 +94,24 @@
                 </li>
             </ul>
         </nav>
-
+        
+        
+        
+        
+        
+        
         <div id="content">
-            <div id="introdiv1">
-                <p id="introp1">한국형 온라인 공개강좌</p>
-                <p id="introp2">Colorful K-MOOC, 당신의 미래를 그려보세요.</p>
-            </div>
-            <div id="introdiv2">
-                <table>
-                    <tr>
-                        <th>Korean</th>
-                        <th>Massive</th>
-                        <th>Open</th>
-                        <th>Online</th>
-                        <th>Course</th>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                    </tr>
-                    <tr id="tr1">
-                        <td>한국형</td>
-                        <td>수강인원 무제한</td>
-                        <td>모든 사람이 수강 가능<br>무료</td>
-                        <td>웹 기반 인터넷 수강</td>
-                        <td>학습목표 달성을 위해<br>구성된 교육 코스</td>
-                    </tr>
-                </table>
-                <img src="resources/img/scroll.png">
-            </div>
-            <div id="introdiv3">
-                <img src="resources/img/kkuk1.png" id="img1">
-                <img src="resources/img/kkuk2.png" id="img2">
-                <div id="introsubdiv">
-                    <p>무크(MOOC)란 Massive,Open,Online,Course의 줄임말로 오픈형 온라인 학습 과정을 뜻합니다.
-                    <br>이것은 강의실에 수용된 학생만이 강의를 들을 수 있었던 것에서 청강만 가능한 온라인 학습동영상으로 변화하고
-                    <br>현재는 질의응답,토론,퀴즈,과제 제출 등 양방향 학습을 할 수 있는 모습으로 완성되었습니다.</p>
-                </div>
-            </div>
+        	<h2>학점은행과정</h2>
         </div>
         
-                <footer>
+        
+        
+        
+        
+        
+        
+        
+            <footer>
             <div id="foot1">
                 <div id="f1">
                     <p id="f1title"><b>K-MOOC</b></p>
@@ -159,10 +122,10 @@
                     <p>(서비스 이용 문의)info_kmooc@nile.or.kr</p>
                     <p>E-mail: kmooc@nile.or.kr</p>
                     <p id="bluep1">K-MOOC는 chrome 브라우저 사용을 권장합니다.</p>
-                    <a href="#"><img src="resources/img/icon_link_facebook.png"></a>
-                    <a href="#"><img src="resources/img/icon_link_instagram.png"></a>
-                    <a href="#"><img src="resources/img/icon_link_youtube.png"></a>
-                    <a href="#"><img src="resources/img/icon_link_blog.png"></a>
+                    <a href="#"><img src="../resources/img/icon_link_facebook.png"></a>
+                    <a href="#"><img src="../resources/img/icon_link_instagram.png"></a>
+                    <a href="#"><img src="../resources/img/icon_link_youtube.png"></a>
+                    <a href="#"><img src="../resources/img/icon_link_blog.png"></a>
                 </div>
                 <div id="f2">
                     <p id="f2title"><b>패밀리사이트</b></p>
@@ -186,8 +149,8 @@
                 </div>
                 <div id="f3">
                     <p id="f3title"><b>앱 다운로드</b></p>
-                    <a href="#"><img src="resources/img/icon_app_android.png"></a>
-                    <a href="#"><img src="resources/img/icon_app_ios.png"></a>
+                    <a href="#"><img src="../resources/img/icon_app_android.png"></a>
+                    <a href="#"><img src="../resources/img/icon_app_ios.png"></a>
                 </div>
                 <div id="f4">
                     <hr>
@@ -199,8 +162,8 @@
                     <p>Copyright@2020 National Institute for Lifelong Education.All Rights Reserved</p>
                 </div>
                 <div id="f5">
-                    <a href="#"><img src="resources/img/footer1.png"></a>
-                    <a href="#"><img src="resources/img/footer2.png"></a>
+                    <a href="#"><img src="../resources/img/footer1.png"></a>
+                    <a href="#"><img src="../resources/img/footer2.png"></a>
                 </div>
             </div>
         </footer>

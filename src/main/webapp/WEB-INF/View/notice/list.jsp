@@ -31,7 +31,7 @@
         nav:hover{height: 240px; background-color: #DAE6F5; transition: 0.4s;}
 
 
-		#content{width:100%; height:800px;}
+		#content{width:100%; height:800px; margin-left:250px;}
 
 
         #foot1{width: 100%; height: 485px; background-color: #222222;}
@@ -68,27 +68,27 @@
         </header>
         <nav>
             <ul id="menu">
-                <li>
+               <li>
                     <a href="#"><b>K-MOOC 소개</b></a>
                     <ul class="sub">
                         <a href="/intro.do"><li>K-MOOC란?</li></a>
-                    </ul>
+                   </ul>
                 </li>
                 <li>
                     <a href="#"><b>강좌찾기</b></a>
                     <ul class="sub">
                         <a href="/lecture.do"><li>분야별 강좌</li></a>
-                        <a href="#"><li>묶음 강좌</li></a>
-                        <a href="#"><li>교양 강좌</li></a>
-                        <a href="#"><li>학점은행과정</li></a>
+                        <a href="/lecture2.do"><li>묶음 강좌</li></a>
+                        <a href="/lecture3.do"><li>교양 강좌</li></a>
+                        <a href="/lecture4.do"><li>학점은행과정</li></a>
                     </ul>
                 </li>
                 <li>
                     <a href="#"><b>커뮤니티</b></a>
-                     <ul class="sub">
+                    <ul class="sub">
                         <a href="/Notice/list.do"><li>공지사항</li></a>
-                        <a href="#"><li>뉴스</li></a>
-                        <a href="#"><li>자료실</li></a>
+                        <a href="/news.do"><li>뉴스</li></a>
+                        <a href="/mater.do"><li>자료실</li></a>
                         <a href="/Board/list.do"><li>자유게시판</li></a>
                     </ul>
                 </li>

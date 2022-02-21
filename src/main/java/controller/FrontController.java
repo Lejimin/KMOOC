@@ -18,12 +18,14 @@ import controller.board.BoardUpdateController;
 import controller.board.BoardUpdateReqController;
 import controller.home.HomeForwardingController;
 import controller.home.IntroductionController;
+import controller.home.Lecture2Controller;
+import controller.home.Lecture3Controller;
+import controller.home.Lecture4Controller;
 import controller.home.LectureController;
-import controller.member.MemberDeleteController;
+import controller.home.MaterialsController;
+import controller.home.NewsController;
 import controller.member.MemberJoinController;
-import controller.member.MemberListController;
 import controller.member.MemberSearchController;
-import controller.member.MemberUpdateController;
 import controller.notice.NoticeListController;
 import controller.notice.NoticePostController;
 import jakarta.servlet.ServletException;
@@ -51,15 +53,17 @@ public class FrontController extends HttpServlet{
 		
 		//Member관련 URL
 		list.put("/MemberJoin.do", new MemberJoinController());
-		list.put("/MemberList.do", new MemberListController());
 		list.put("/MemberSearch.do", new MemberSearchController());
-		list.put("/MemberUpdate.do", new MemberUpdateController());
-		list.put("/MemberDelete.do", new MemberDeleteController());
 		
 		//Home URL
 		list.put("/Home.do", new HomeForwardingController());
 		list.put("/intro.do", new IntroductionController());
+		list.put("/news.do", new NewsController());
+		list.put("/mater.do", new MaterialsController());
 		list.put("/lecture.do", new LectureController());
+		list.put("/lecture2.do", new Lecture2Controller());
+		list.put("/lecture3.do", new Lecture3Controller());
+		list.put("/lecture4.do", new Lecture4Controller());
 		//Board관련 URL
 		list.put("/Board/list.do", new BoardListController());
 		list.put("/Board/post.do", new BoardPostController());
