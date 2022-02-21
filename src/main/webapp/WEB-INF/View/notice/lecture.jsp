@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>공지사항</title>
+<title>Insert title here</title>
     <link href="resources/css/common.css" type="text/css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -31,7 +31,7 @@
         nav:hover{height: 240px; background-color: #DAE6F5; transition: 0.4s;}
 
 
-		#content{width:100%; height:800px;}
+		#content{width: 1650px; height:  1500px; margin-left: 250px;}
 
 
         #foot1{width: 100%; height: 485px; background-color: #222222;}
@@ -101,7 +101,118 @@
         
         
         <div id="content">
-        	<h2>공지사항</h2>
+            <h2>강좌 찾기</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-5 w-75 h-50">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../resources/img/lec1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">최초반응자를 위한 외상 처치술</h5>
+                      <p class="card-text">대전보건대학교</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../resources/img/lec2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">발레:융합문화예술의 실제1</h5>
+                      <p class="card-text">성신여자대학교</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../resources/img/lec3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">아동과 청소년의 건강환경</h5>
+                      <p class="card-text">성신여자대학교</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../resources/img/lec4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">설득의 과학</h5>
+                      <p class="card-text">성신여자대학교</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="../resources/img/lec5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">역사와 문화속의 인간</h5>
+                        <p class="card-text">성신여자대학교</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../resources/img/lec6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">음악은 왜 치료적인가</h5>
+                        <p class="card-text">성신여자대학교</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../resources/img/lec7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">헌법 갈등해결의 코드</h5>
+                        <p class="card-text">성신여자대학교</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../resources/img/lec8.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">4차산업혁명과 경영혁신</h5>
+                        <p class="card-text">성신여자대학교</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../resources/img/lec9.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">기본권, 세상과 통하는 법</h5>
+                        <p class="card-text">성신여자대학교</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../resources/img/lec10.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">의료사고, 법으로 이해하기</h5>
+                        <p class="card-text">성신여자대학교</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../resources/img/lec11.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">한국의 자연지리</h5>
+                        <p class="card-text">성신여자대학교</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../resources/img/lec12.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">비즈니스를 위한 인공지능</h5>
+                        <p class="card-text">성신여자대학교</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            
         </div>
         
         

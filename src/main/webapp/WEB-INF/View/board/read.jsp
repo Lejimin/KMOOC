@@ -53,7 +53,7 @@
                 <li>
                     <a href="#"><b>강좌찾기</b></a>
                     <ul class="sub">
-                        <a href="#"><li>분야별 강좌</li></a>
+                        <a href="/lecture.do"><li>분야별 강좌</li></a>
                         <a href="#"><li>묶음 강좌</li></a>
                         <a href="#"><li>교양 강좌</li></a>
                         <a href="#"><li>학점은행과정</li></a>
