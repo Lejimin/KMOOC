@@ -1,14 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-		<content>
+           <content>
             <div id="contentgrp">
                 <div class="out">
                   <div class="top">
                       <div class="main1 txt">
                           <h1 class="title" style="text-align: left; color: #222;">K-MOOC 소개</h1> 
                           <p class="content" style="color: #222;">K-MOOC는 온라인을 통해서<br>누구나, 어디서나 원하는 강좌를 무료로 들을 수 있는<br>온라인 공개강좌 서비스로 2015년에 시작된<br>한국형 무크입니다.</p>
-                          <a href="#" class="more" title="K-MOOC 소개 더 보기">more</a>
+                          <a href="/intro.do" class="more" title="K-MOOC 소개 더 보기" style="text-decoration:none; color:#222;">more</a>
                       </div>
                       <div class="main1 img"></div>
                   </div>
@@ -22,16 +22,16 @@
                               <p class="content" style="color: #222;">K-MOOC의 다양한 강좌를 통해 목표를 달성해 보세요.</p>
                               <ul class="quick-link">
                                   <li>
-                                      <a href="#">분야별 강좌</a>
+                                      <a href="/lecture.do" style="text-decoration:none; color:#222;">분야별 강좌</a>
                                   </li>
                                   <li>
-                                      <a href="#">묶음강좌</a>
+                                      <a href="/lecture2.do" style="text-decoration:none; color:#222;">묶음강좌</a>
                                   </li>
                                   <li>
-                                      <a target="_blank" href="#">학점은행과정</a>
+                                      <a target="_blank" href="/lecture4.do" style="text-decoration:none; color:#222;">학점은행과정</a>
                                   </li>
                               </ul>
-                              <a href="#" class="more" title="강좌찾기 더 보기">more</a>
+                              <a href="/lecture.do" class="more" title="강좌찾기 더 보기" style="text-decoration:none; color:#222;">more</a>
                           </div>
                       </div>
                   </div>
@@ -75,16 +75,16 @@
                       <p class="content">K-MOOC의 소식을 전해드립니다.</p>
                       <ul class="quick-link">
                           <li>
-                              <a href="#">공지사항</a>
+                              <a href="/Notice/list.do" style="text-decoration:none; color:#222;">공지사항</a>
                           </li>
                           <li>
-                              <a href="#">뉴스</a>
+                              <a href="/news.do" style="text-decoration:none; color:#222;">뉴스</a>
                           </li>
                           <li>
-                              <a href="#">자료실</a>
+                              <a href="/mater.do" style="text-decoration:none; color:#222;">자료실</a>
                           </li>
                           <li>
-                              <a href="#">FAQ</a>
+                              <a href="/Board/list.do" style="text-decoration:none; color:#222;">자유게시판</a>
                           </li>
                       </ul>
                   </div>
@@ -92,4 +92,5 @@
                 </div>
                 </div>
             </div>
-         </content>
+            </content>
+        

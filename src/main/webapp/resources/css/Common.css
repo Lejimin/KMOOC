@@ -1,3 +1,6 @@
+   @charset "UTF-8";
+   
+   
     body{width: 100%; height: 1500px;}
     #wrapper{font-style: normal; font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', dotum, sans-serif; font-size: 1rem;  font-weight: normal;}
     header{width: 100%; height: 90px;}
@@ -48,8 +51,10 @@
 
     .content {
         font-size: 14px;
-    }   
+    } 
+    
     .more {
+        text-decoration: none;
         display: inline-block; 
         position: relative;
         margin-top: 10px;
@@ -133,6 +138,7 @@
         background:#DAE6F5;
     }
     .boxout-text{
+    	text-decoration:none;
         padding:15px 0px;
         text-align:center;
         line-height: 1.4;
