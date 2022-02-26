@@ -31,7 +31,14 @@
         nav:hover{height: 240px; background-color: #DAE6F5; transition: 0.4s;}
 
 
-		#content{width:100%; height:800px;margin-left:250px;}
+		#content{width: 100%; height: 1500px;}
+        #context{margin-top: -140px; margin-left: 530px; color: white;}
+        table{margin-top: 150px; margin-left: 390px; width: 60%; height: 900px;}
+        td>img{width: 300px; height: 180px;}
+        .tdp1{width: 300px; height: 300px; padding: 0px;} 
+        .tdp2{width: 700px; height: 300px; padding: 30px;}
+        .tdp3{width: 220px; font-size: 13px;}
+        .b{font-weight: bold;}
 
 
         #foot1{width: 100%; height: 485px; background-color: #222222;}
@@ -101,7 +108,30 @@
         
         
         <div id="content">
-        	<h2>묶음강좌</h2>
+            <div id="con"><img src="../resources/img/bg_group.jpg"></div>
+            <div id="context">
+                <h3>묶음강좌란? | </h3>
+                <p>K-MOOC 묶음강좌란 특정 분야에 대한 보다 심도있는 학습기회를 제공하기 위해 복수의 강좌로 구성된 커리큘럼입니다.</p>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td class="tdp1"><img src="http://www.kmooc.kr/static/file_upload/3f93ca8f5e664f74aa9de54846e754f9"></td>
+                        <td class="tdp2"><p class="b">감성인식기술전문가 양성과정</p><br><p>심리학,신경과학 및 인공지능의 관점을 통합하여 인지의 중요한 요소인 인간 감성을 이해하고,인간의 지각,지능 및 감성을 통합적으로 학습하도록 함</p></td>
+                        <td class="tdp3"><p><p class="b">대표기관</p>상명대학교</p><br><p><p class="b">구성강좌수</p> &nbsp; 6</p></td>
+                    </tr>
+                    <tr>
+                        <td class="tdp1"><img src="http://www.kmooc.kr/static/file_upload/5eb45a5887c44aed8be712133fe3af1b"></td>
+                        <td class="tdp2"><p class="b">노인심리상담사 기초과정</p><br><p>본 강좌는 초고령화시대에 접어들면서 노인인구 증가에 따른 사회적 변화에 발맞추어 노인심리상담사를 양성하기 위한 기초 과정으로 노인심리상담에 필요한 실제적인 지식을 습득할 수 있습니다. 본 강좌는 묶음 강좌로써 노인심리상담사로서 갖추어야할 기본 역량을 쌓기 위해 기초, 입문, 활용, 고급 과정으로 교과목이 구성되어 있습니다. 입문과정으로는 <노인상담의 이해>, 기초 과정으로는 <전 생애 발달과 노인심리>, 활용 과정으로는 <노인상담 이론과 기법>, <노인문제와 심리평가>, 그리고 고급 과정으로 <노인상담의 실제> 과목으로 구성하였습니다. 본 묶음 강좌에서는 노년기 발달 이슈를 전생애 발달 관점에서 이해함으로써 노인의 심리적 특성을 기반으로 한 노인심리상담의 기초를 익힐 수 있습니다. 또한 노인심리장애와 노인 심리평가 방법을 학습할 수 있고, 나아가 노인심리상담에서 자주 접하는 위기 영역(애도, 노인학대, 노인 자살 등)에 대해 실제 사례를 통한 전문 상담지식을 함양할 수 있도록 구성하였습니다.</p></td>
+                        <td class="tdp3"><p><p class="b">대표기관</p>서울사이버대학교</p><br><p><p class="b">구성강좌수</p> &nbsp; 5</p></td>
+                    </tr>
+                    <tr>
+                        <td class="tdp1"><img src="http://www.kmooc.kr/static/file_upload/4ca33070ed364a958956844180a466fc"></td>
+                        <td class="tdp2"><p class="b">인문.사회계열 전공생을 위한 머신러닝 예비학교</p><br><p>본 강좌는 인문·사회·교육계열을 전공하는 학생들이 본인의 전공 혹은 진로 희망 분야에 인공지능 기술을 적용할 수 있도록 기초부터 심화까지의 과정을 묶음으로 구성하였다. 본 묶음강좌를 이수하면 먼저 Jupyter Notebook을 통해 Python 코딩에 입문하고 머신러닝(ML)과 신경망(NN) 문제를 실습한다. 이후 머신러닝 및 인공지능 심화학습을 위해 Python 코딩 실습을 겸한 수학 기초 과정을 학습하며, 실사례(Case Studies)로 구성된 실습을 통해 ML 혹은 AI 알고리즘을 구현할 수 있게 된다.</p></td>
+                        <td class="tdp3"><p><p class="b">대표기관</p>성신여자대학교</p><br><p><p class="b">구성강좌수</p> &nbsp; 4</p></td>
+                    </tr>
+                </table>
+            </div>
         </div>
         
         

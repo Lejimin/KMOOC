@@ -1,6 +1,3 @@
-   @charset "UTF-8";
-   
-   
     body{width: 100%; height: 1500px;}
     #wrapper{font-style: normal; font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', dotum, sans-serif; font-size: 1rem;  font-weight: normal;}
     header{width: 100%; height: 90px;}
@@ -51,8 +48,7 @@
 
     .content {
         font-size: 14px;
-    } 
-    
+    }   
     .more {
         text-decoration: none;
         display: inline-block; 
@@ -130,7 +126,7 @@
         justify-content:center;
         align-items:center;
         font-family: GmarketSans;
-        width: calc((100% - 1px)/7);
+        width: 168px;
         margin: 15px 0;
         padding: 0 25px;
     }
@@ -138,7 +134,7 @@
         background:#DAE6F5;
     }
     .boxout-text{
-    	text-decoration:none;
+    	text-decoration: none;
         padding:15px 0px;
         text-align:center;
         line-height: 1.4;
@@ -175,7 +171,7 @@
     #optionbar{background-color: #222222; color: #FFFFFF; width: 210px; height: 35px;}
     hr{width: 1230px; margin-top: -20px;}
     #f4{width: 1000px; height: 90px; color: #FFFFFF; position: relative; top: -540px; left: 220px;}
-    #f4>a{display: inline-block; margin-left: 10px;}
+    #f4>a{display: inline-block; margin-left: 10px; text-decoration: none;}
     #bluep2{color: #79a9ff;}
     #f5{width: 500px; height: 90px; position: relative; top: -610px; left: 850px;}
     #f5>a>img{margin-left: 50px;}
