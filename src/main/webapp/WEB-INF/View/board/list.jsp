@@ -39,7 +39,7 @@
             </div>
             <div>
                 <a href="/LogoutProc.do" id="login">로그아웃</a></li>
-                <a href="MemberJoin.jsp" id="join"><p><b>회원가입</b></p></a>
+                <a href="/MemberJoin.jsp" id="join"><p><b>회원가입</b></p></a>
             </div>
         </header>
         <nav id="menunav">
